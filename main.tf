@@ -12,7 +12,7 @@ resource "azurerm_storage_account" "hcl3stg" {
 }
 
 resource "azurerm_storage_container" "hcl3container" {
-  name                  = "vhds"
+  name                  = "chomu"
    depends_on               = [azurerm_storage_account.hcl3stg]
   
   storage_account_id  =  "hclstorage31"
