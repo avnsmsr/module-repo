@@ -1,5 +1,5 @@
 resource "azurerm_resource_group" "hlc3" {
-  name     = "hlc-rg3"
+  name     = "hlc-rg"
   location = "centralindia"
 }
 resource "azurerm_storage_account" "hcl3stg" {
